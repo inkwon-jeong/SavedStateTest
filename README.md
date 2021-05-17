@@ -5,6 +5,6 @@
 2. ViewModel
 3. SavedStateViewModel
 
-onSaveInstanceState() : https://dev-inkwon.tistory.com/57?category=926665
-ViewModel : https://dev-inkwon.tistory.com/58?category=926665
-SavedStateViewModel : https://dev-inkwon.tistory.com/59?category=926665
+onSaveInstanceState() : https://dev-inkwon.tistory.com/57?category=926665<br/>
+ViewModel : https://dev-inkwon.tistory.com/58?category=926665<br/>
+SavedStateViewModel : https://dev-inkwon.tistory.com/59?category=926665<br/>
