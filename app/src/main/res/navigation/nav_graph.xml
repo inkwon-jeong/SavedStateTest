@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.savedstatetest.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_savedStateHandleFragment"
+            app:destination="@id/savedStateHandleFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_viewModelFragment"
+            app:destination="@id/viewModelFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_onSaveInstanceStateFragment"
+            app:destination="@id/onSaveInstanceStateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/onSaveInstanceStateFragment"
+        android:name="com.example.savedstatetest.onsaveinstancestate.OnSaveInstanceStateFragment"
+        android:label="fragment_on_save_instance_state"
+        tools:layout="@layout/fragment_on_save_instance_state" />
+    <fragment
+        android:id="@+id/viewModelFragment"
+        android:name="com.example.savedstatetest.viewmodel.ViewModelFragment"
+        android:label="fragment_view_model"
+        tools:layout="@layout/fragment_view_model" />
+    <fragment
+        android:id="@+id/savedStateHandleFragment"
+        android:name="com.example.savedstatetest.savedstatehandle.SavedStateHandleFragment"
+        android:label="fragment_saved_state_handle"
+        tools:layout="@layout/fragment_saved_state_handle" />
+</navigation>
